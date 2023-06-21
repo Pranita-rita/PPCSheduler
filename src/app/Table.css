@@ -1,0 +1,81 @@
+.VDTableContainer {
+  /* max-height: 230px; */
+  /* max-height: 230px; */
+  /* overflow: scroll; */
+  /* max-width: inherit; */
+  box-shadow: none;
+  /* max-height: 200px; */
+}
+
+.VDTable .VDTableHead .VDTableHeaderRow {
+  background: #27257d 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.VDTable .VDTableHead .VDTableHeaderRow .MuiTableCell-head,
+.VDTable .VDTableHead .VDTableHeaderRow .MuiTableCell-head {
+  text-align: center;
+  font: normal normal 900 12px/16px customFonts;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 10px;
+}
+
+.UsagePatternMain
+  .UsagePatternMainGrid
+  .UPTableMainGrid
+  .VSTable
+  .VDTableHeaderRowCell:after {
+  content: none;
+}
+
+.VDTable .VDTableHead .VDTableHeaderRow .VDTableHeaderRowCell {
+  text-align: center;
+  letter-spacing: 0px;
+  max-width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-transform: capitalize;
+color: #FFFFFF;
+
+  font: normal normal bold 15px/15px customFonts;
+letter-spacing: 0.62px;
+opacity: 1;
+}
+
+.VDTable .VDTableBody .VDTableBodyRow .VDTableBodyRowCell {
+  text-align: center;
+  font: normal normal normal 12px/15px customFonts;
+  opacity: 1;
+  max-width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 150px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+letter-spacing: 1.08px;
+color: #606060;
+padding: 10px;
+}
+
+.UPTableGrid .UPSearchGrid {
+  align-self: flex-end;
+}
+
+.UPSearchFieldMainDiv {
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 5px 7px;
+}
+
+.UPExportIcon {
+  height: 15px;
+  vertical-align: unset;
+  cursor: pointer;
+}

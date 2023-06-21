@@ -1,0 +1,118 @@
+{
+    "orders": [
+      {
+        "value": "Envelope Order 1 Qty - 96,000 Date - 15 May 2023 Location - Loc 1",
+        "rowSpan": 5,
+        "stages": [
+          {
+            "rowSpan": 1,
+            "value": "Offset",
+            "machines": [
+              {
+                "rowSpan": 1,
+                "value": "Machine 1",
+                "capacity": {
+                    "rowSpan": 1,
+                    "value": "6UP Qty / 6UP  - 16000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Punching",
+            "machines": [
+              {
+                "value": "Machine 2",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Cutting",
+            "machines": [
+              {
+                "value": "Machine 3",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Folding",
+            "machines": [
+              {
+                "value": "Machine 4",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Final Making",
+            "machines": [
+              {
+                "value": "Machine 5",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": "Envelope Order 2 Qty - 96,000 Date - 14 May 2023 Location - Loc 1",
+        "stages": [
+          {
+            "value": "Punching",
+            "machines": [
+              {
+                "value": "Machine 2",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Cutting",
+            "machines": [
+              {
+                "value": "Machine 3",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Folding",
+            "machines": [
+              {
+                "value": "Machine 4",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          },
+          {
+            "value": "Final Making",
+            "machines": [
+              {
+                "value": "Machine 5",
+                "capacity": {
+                    "value": "2UP Qty / 2UP - 48000"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  
+  }
